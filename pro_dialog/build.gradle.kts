@@ -11,7 +11,6 @@ android {
 
     defaultConfig {
         minSdk = 23
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -58,10 +57,9 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            from(components["release"])
             groupId = "com.github.GtechGovind"
             artifactId = "ProDialog"
-            version = "1.0"
+            version = "1.1"
         }
     }
 }
