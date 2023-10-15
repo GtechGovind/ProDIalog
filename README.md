@@ -1,5 +1,3 @@
-Certainly! Here's the README.md file content for both Gradle and Kotlin DSL (build.gradle and build.gradle.kts) users:
-
 ### Gradle (Groovy) Users
 
 #### Installation
