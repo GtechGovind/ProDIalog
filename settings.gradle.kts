@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ProDialog"
 include(":app")
-include(":app:pro_dialog")
+include(":pro_dialog")
