@@ -58,9 +58,9 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
-                groupId = "com.github.GtechGovind"
-                artifactId = "ProDialog"
-                version = "1.5"
+                groupId = "com.github.gtech-govind"
+                artifactId = "pro_dialog"
+                version = "1.6"
             }
         }
     }
