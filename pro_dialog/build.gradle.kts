@@ -54,12 +54,14 @@ dependencies {
 
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("release") {
-            groupId = "com.github.GtechGovind"
-            artifactId = "ProDialog"
-            version = "1.1"
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                groupId = "com.github.gtech"
+                artifactId = "ProDialog"
+                version = "1.2"
+            }
         }
     }
 }
